@@ -31,7 +31,6 @@ int mainMenu(int c) {
 
     return input;
 }
-
 int modeMenu(int c) {
     if(c == 5) {
         cout << "Alright thats enough, don't waste stack you *****!" << endl;
@@ -45,7 +44,7 @@ int modeMenu(int c) {
 
     switch (input) {
     case 1:
-        cout << "you chose Singleplayer, but its not ready yet" << endl;
+        return 1;
         break;
     case 2:
         cout << "Buddy Mode is still in development" << endl;
@@ -61,3 +60,14 @@ int modeMenu(int c) {
     }
     return input;
 }
+/*
+int characterMenu(int c) {
+    if(c == 5) {
+        cout << "Alright thats enough, don't waste stack you *****!" << endl;
+        return 0;
+    }
+    cout << "1. create a new character" << endl;
+    cout << "2. choose an existing character" << endl;
+    cout << "3. "
+}
+*/
