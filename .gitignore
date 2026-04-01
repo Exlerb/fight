@@ -1,0 +1,21 @@
+# Compiled files
+*.o
+*.exe
+program
+a.out
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Your logs (if you don't want them in git)
+logs/
+*.log
+
+# Backup files
+*~
+*.swp
